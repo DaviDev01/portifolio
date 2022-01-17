@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <title>Davi Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div>
+                <a class="link" href="index.html">
+                    <h1 class="logo">&#60davidev&#62</h1>
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="intro mainIntro" id="home">
+            <h1 class="section__title section__title--intro">
+                Olá, meu nome é<strong class="mainPageTitle">Davi Mendes</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">desenvolvedor front-end</p>
+        </section>      
+       
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">O Que Eu Faço</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design Responsivo</h3>
+                    <p>Tenho como objetivo, em todos os meus projetos, construir designs que funcionam em todos tamanhos de tela. Algo indispensável em um mundo onde mais de 60% dos usuários visitam sites por meio de dispositivos móveis.</p>
+                </div> 
+                
+                <div class="service">
+                    <h3>React</h3>
+                    <p>Para dar ao usuário a melhor experiência possível, tenho como uma de minhas ferramentas o React, Uma biblioteca de JavaScript usada por empresas como Amazon, Uber, Facebook e Instagram.</p>
+                </div> 
+                
+                <div class="service">
+                    <h3>User Interface</h3>
+                    <p>Tão importante quanto ter uma página funcional é ter uma página agradável aos olhos. Por isso tento sempre implementar em meus designs características que prendem a atenção do usuário.</p>
+                </div> 
+            </div> 
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <section class="my-work colorChange" id="work">
+            <h2 class="section__title section__title--work fontChange">Meu trabalho</h2>
+            <p class="section__subtitle section__subtitle--work">Alguns dos meus projetos</p>
+            
+            <div class="portfolio">
+                
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-01.png" alt="" class="portfolio__img">
+                </a>
+                
+                <a href="portfolio-item2.html" class="portfolio__item">
+                    <img src="img/portfolio-02.png" alt="" class="portfolio__img">
+                </a>
+                
+                <a href="portfolio-item3.html" class="portfolio__item">
+                    <img src="img/portfolio-03.png" alt="" class="portfolio__img">
+                </a>
+                   
+            </div>
+        </section>
+        
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work section__subtitle--work">Meus Certificados</h2>
+            
+            <div class="portfolio">
+                
+                <div class="portfolio__item itemChange">
+                    <img src="img/frontend.jpg" alt="" >
+                    <p>80 horas de aulas de alto nível com professores de mais de 5 nacionalidades diferentes, centenas de desafios de programação resolvidos e dezenas de projetos do mundo real construídos em um curso totalmente em inglês o que me possibilitou vários insights sobre os assuntos lecionados.</p>
+                </div>
+                
+                <div class="portfolio__item itemChange">
+                    <img src="img/responsive-web-design.jpg" alt="">
+                    <p>Curso sobre design responsivo com o professor Kevin Powell. Esse curso tem como foco a construção de designs que se adaptam a qualquer tamanho de tela.</p>
+                </div>
+                
+                <div class="portfolio__item itemChange">
+                    <img src="img/react.jpg" alt="">
+                    <p>Curso de React avançado com o instrutor Bob Ziroll. Aulas interativas focadas em assuntos de nível médio e avançado.</p>
+                </div>
+                   
+            </div>
+        </section>
+
+        <footer class="footer">
+            <a href="mailto:davimendesdafonseca@outlook.com" class="footer__link">davimendesdafonseca@outlook.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/davi-mendes-868b6b207/" rel="noreferrer" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/DavidaviMendes" rel="noreferrer" target="_blank">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/DaviDev01" rel="noreferrer" target="_blank">
+                        <i class="fab fa-github-square"></i></a></li>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

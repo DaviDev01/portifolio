@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevJane Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div>
+                <a class="link" href="index.html">
+                    <h1 class="logo">&#60davidev&#62</h1>
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                FullBucket <strong>Ambiente</strong> <strong>de Estudo</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Pratique o seu Inglês</p>
+            <img src="img/portfolio-01-closeup.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>Durante as últimas fases dos meus estudos de Inglês, eu necessitava de um lugar para praticar minha escrita. O que eu procurava era uma ferramenta, não apenas para ler a página de um livro, mas também praticar a escrita das palavras lá presentes. Foi daí que surgiu a ideia de criar um site com um dicionário, reprodutor de palavras e ao mesmo tempo uma ferramenta para praticar a escrita e a leitura em inglês tudo em um só lugar.</p>
+            <img class="portfolio-item_img" src="img/portfolio-01.png" alt="">
+            <p>Esse projeto foi construído com <strong>React</strong>. Foram utilizados dois <strong>APIs</strong>, um para reproduzir a pronúncia do texto selecionado e outro cujo o propósito é retornar a definição das palavras.</p>
+            <p>Também utilizei nesse projeto:</p>
+            <ul class="ul">
+                <li><strong>React Hooks</strong></li>
+                <li><strong>React Context</strong></li>
+                <li><strong>React Router</strong></li>
+                <li><strong>Hooks customizados</strong></li>
+            </ul>
+            <div class="siteLinkContainer">
+                <a href="https://davidev01.github.io/fullbucket/#/" class="btn itemBtn" target="_blank">visitar site</a>
+            </div>
+        </div>
+        
+        
+        <footer class="footer">
+            <a href="mailto:davimendesdafonseca@outlook.com" class="footer__link">davimendesdafonseca@outlook.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/davi-mendes-868b6b207/" rel="noreferrer" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/DavidaviMendes" rel="noreferrer" target="_blank">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/DaviDev01" rel="noreferrer" target="_blank">
+                        <i class="fab fa-github-square"></i></a></li>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
