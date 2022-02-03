@@ -397,10 +397,17 @@ header {
 }
 
 .portfolio__item {
-    width: 67%;
+    width: 100%;
     background: var(--clr-accent);
     overflow: hidden;
     box-shadow: var(--bs);
+}
+
+@media (min-width: 600px) {
+    .portfolio__item {
+        width: 80%;
+        max-width: 800px;
+    }
 }
 
 .portfolio__img {
